@@ -4,7 +4,7 @@ if (existsSync('config.env')) require('dotenv').config({ path: './config.env' })
 
 module.exports = { 
     SESSION_ID: process.env.SESSION_ID || '',
-    OWNER_NUMBER: process.env.OWNER_NUMBER || "2349067339193",
+    OWNER_NUMBER: process.env.OWNER_NUMBER || "2348163788529",
     WORKTYPE: process.env.WORKTYPE || "private",
     PREFIX: process.env.PREFIX || "[.]",
     ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || true,
@@ -21,10 +21,10 @@ module.exports = {
     BOT_PRESENCE: process.env.BOT_PRESENCE || "available",
     REACT: process.env.REACT || false,
     READ_MESSAGE: process.env.READ_MESSAGE || "false",
-    OWNER_NAME: process.env.OWNER_NAME || "Mirage",
-    BOT_NAME: process.env.BOT_NAME || "Kord",
+    OWNER_NAME: process.env.OWNER_NAME || "ᴹᴿメ 𝐀𝐂𝐓𝐈𝐕𝐄",
+    BOT_NAME: process.env.BOT_NAME || "𝐀𝐂𝐓𝐈𝐕𝐄メBOT",
     RENDER_API_KEY: process.env.RENDER_API_KEY,
-    ANTIDELETE: process.env.ANTIDELETE || "on",
+    ANTIDELETE: process.env.ANTIDELETE || "off",
     ANTIDELETE_INCHAT: process.env.ANTIDELETE_INCHAT || "off",
     ANTI_EDIT: process.env.ANTI_EDIT || "off",
     ANTI_EDIT_IN_CHAT: process.env.ANTI_EDIT_IN_CHAT || "off",
